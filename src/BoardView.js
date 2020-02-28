@@ -1,8 +1,4 @@
-// This file is a Backbone View.
-// It's part of the board visualizer
-
 (function() {
-
   window.BoardView = Backbone.View.extend({
 
     tagName: 'table',
