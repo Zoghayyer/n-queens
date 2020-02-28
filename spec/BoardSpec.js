@@ -1,9 +1,7 @@
 describe('Board', function() {
-
   var capitalize = function(word) {
     return word[0].toUpperCase() + word.slice(1);
   };
-
 
   var verifyConflictTypes = function(expectedConflicts, matrix) {
     // The Board() constructor will accept a matrix and build that into a (Backbone) Board object (as defined in Board.js)
