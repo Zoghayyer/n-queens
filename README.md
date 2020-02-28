@@ -1,1 +1,3 @@
-#n-queens
+# n-queens
+
+Chess game
