@@ -81,7 +81,6 @@
     },
     // COLUMNS - run from top to bottom
     // --------------------------------------------------------------
-    //
     // test if a specific column on this board contains a conflict
     hasColConflictAt: function(colIndex) {
 
@@ -110,7 +109,6 @@
     },
     // Major Diagonals - go from top-left to bottom-right
     // --------------------------------------------------------------
-    //
     // test if a specific major diagonal on this board contains a conflict
     hasMajorDiagonalConflictAt: function(majorDiagonalColumnIndexAtFirstRow) {
 
@@ -143,7 +141,6 @@
     },
     // Minor Diagonals - go from top-right to bottom-left
     // --------------------------------------------------------------
-    //
     // test if a specific minor diagonal on this board contains a conflict
     hasMinorDiagonalConflictAt: function(minorDiagonalColumnIndexAtFirstRow) {
 
