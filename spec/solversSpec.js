@@ -60,5 +60,4 @@ describe('solvers', function() {
     });
 
   });
-
 });
