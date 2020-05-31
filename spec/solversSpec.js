@@ -31,7 +31,6 @@ describe('solvers', function() {
   });
 
   describe('findNQueensSolution()', function() {
-
     it('finds a valid solution for n of 0-7', function() {
       // Skip 2 and 3 because they have no solution.
       [1, 4, 5, 6, 7, 8].map(function(n) {
