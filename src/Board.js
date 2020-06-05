@@ -68,7 +68,6 @@
     },
     // test if any rows on this board contain conflicts
     hasAnyRowConflicts: function() {
-
       var size = this.get('n');
 
       for ( var i = 0; i < size; i++ ) {
