@@ -1,6 +1,5 @@
 (function() {
   window.BoardView = Backbone.View.extend({
-
     tagName: 'table',
 
     initialize: function() {
