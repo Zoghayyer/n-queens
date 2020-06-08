@@ -1,6 +1,5 @@
 (function() {
   window.Board = Backbone.Model.extend({
-
     initialize: function (params) {
       if (_.isUndefined(params) || _.isNull(params)) {
         console.log('Good guess! But to use the Board() constructor, you must pass it an argument in one of the following formats:');
