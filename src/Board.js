@@ -54,7 +54,6 @@
       );
     },
     hasRowConflictAt: function(rowIndex) {
-
       var row = this.get(rowIndex);
       var count = 0;
 
