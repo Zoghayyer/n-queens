@@ -3,7 +3,6 @@ window.findSolution = function(row, n, board, validator, callback) {
   if (row === n) {
     return callback();
   }
-
   // iterate over possible decisions
   for (var i = 0; i < n; i++) {
     // place a piece
