@@ -21,7 +21,6 @@ window.findSolution = function(row, n, board, validator, callback) {
 
 window.findNRooksSolution = function(n) {
   var board = new Board({n: n});
-
   var solution = findSolution(0, n, board, 'hasAnyRooksConflicts', function() {
     return _.map(board.rows(), function(row) {
       return row.slice();
