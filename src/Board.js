@@ -90,7 +90,6 @@
     },
     // test if any columns on this board contain conflicts
     hasAnyColConflicts: function() {
-
       var size = this.get('n');
 
       for ( var i = 0; i < size; i++ ) {
