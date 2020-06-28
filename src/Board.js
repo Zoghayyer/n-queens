@@ -78,7 +78,6 @@
     // --------------------------------------------------------------
     // test if a specific column on this board contains a conflict
     hasColConflictAt: function(colIndex) {
-
       var size = this.get('n');
       var count = 0;
 
